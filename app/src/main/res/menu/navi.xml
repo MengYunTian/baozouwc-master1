@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/auto"
+        app:showAsAction="always"
+        android:title="模拟导航"
+        />
+    <item
+        android:id="@+id/car"
+        app:showAsAction="ifRoom"
+        android:title="驾车导航"
+        />
+    <item
+        android:id="@+id/step"
+        app:showAsAction="ifRoom"
+        android:title="步行导航"
+        />
+    <item
+        android:id="@+id/bike"
+        app:showAsAction="ifRoom"
+        android:title="骑行导航 "
+        />
+</menu>
